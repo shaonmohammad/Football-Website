@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/*------------ Header Start---------- */
+.header-container{
+    display:flex;
+  
+    width: 100%;
+    height: 677px;
+    background: #2D25A0;
+    margin-bottom: 70px;
+}
+.header-title{
+    width:55%;
+}
+.header-title h1{
+    font-size: 64px;
+    font-weight:700;
+    line-height: 80px;
+    color: white;
+    margin:207px 102px 27px 156px;
+
+
+}
+.header-button a{
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+    background-color:  #fc0660;
+    border-radius: 5px;
+    padding: 10px 24px;
+    margin-left: 156px;
+    transition: 0.5s;
+}
+.header-button a:hover{
+    background-color: #e02c6ed5;
+    color: white;
+}
+.header-button a i{
+    margin-left: 5px;
+}
+.header-image img{
+    width: 556px;
+    height: 438px;
+    margin: 153px 0px 0px 0px;
+    transition: 1s;
+}
+.header-image img:hover{
+    width: 500px;
+    height: 400px;
+}
+ /* --------------------Header End-----------------------  */
+
+/*---------------------Players Card Start------------------ */
+.players{
+   display: grid;
+   grid-template-columns: 330px 330px 330px;
+   grid-row-gap:27px;
+   grid-column-gap: 30px;
+   justify-content: center;
+    margin-bottom: 150px;
+  
+}
+.player{
+    width: 300px;
+    box-shadow:2px 2px 10px gray;
+    padding: 15px;
+    border-radius: 5px;
+    
+}
+.player-image img{
+    width: 300px;
+    height: 256px;
+   
+
+    
+}
+.player h3{
+    font-size: 28px;
+    font-weight: bold;
+    margin: 16px 0px;
+
+}
+.player p{
+    width: 300px;
+    font-size: 16px;
+    color: #6C6C6C;
+    text-align: justify;
+    font-weight:none;
+
+}
+/*---------------------Players Card End------------------ */
+
+
+
+/* --------------Bonus Part start -------------------- */
+
+#final-match-title h1{
+    font-weight: bolder;
+    text-align: center;
+    font-size: 3em;
+    margin-bottom: 50px;
+}
+#final-match{
+    width: 100%;
+    height: 500px;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+#score h1{
+    font-size: 5em;
+    font-weight: bolder;
+}
+
+#argentina-flag img{
+    margin-right: 10px;
+}
+#brazil-flag img{
+    width: 400px;
+    height: 250px;
+    margin-left: 10px;
+}
+
+/* --------------Bonus Part End -------------------- */
+ 
+/*--------------- footer start -------------------- */
+#footer-image{
+    text-align: center;
+}
+#footer-image img{
+    height: 110px;
+    width: 483.87px;
+    margin-bottom: 20px;
+}
+.social-icon{
+    text-align: center;
+}
+.social-icon img{
+    width: 32px;
+    height: 32px;
+    margin: 0px 14px;
+}
+#footer-text{
+    font-size: 18px;
+    margin: 20px 0px;
+    text-align: center;
+}
+
+/*-------------------- footer end -------------------- */
+
+/* --------------Responsive Website for Mobile---------  */
+
+
+        
+    
+
+    
+
